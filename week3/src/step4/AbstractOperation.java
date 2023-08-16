@@ -1,5 +1,5 @@
 package step4;
 
-public interface AbstractOperation {
-    double operate(int firstName, int secondNumber);
+public abstract class AbstractOperation {
+    public abstract double operate(int firstName, int secondNumber);
 }
